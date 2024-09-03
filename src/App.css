@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 30px 42px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  width: fit-content;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.post-title {
+  font-size: 24px;
+}
+
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.post-tag {
+  border-radius: 4px;
+  padding: 4px;
+  background-color:rgb(178, 175, 171);
+  color: white;
+}
